@@ -1,0 +1,92 @@
+<!-- ========================= -->
+body {background: linear-gradient(135deg, #ec4899, #8b5cf6);
+color: white;
+padding: 70px 20px;
+text-align: center;
+}
+
+
+.menu {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 50px;
+}
+
+
+.btn {
+background: #22c55e;
+color: white;
+padding: 20px;
+text-align: center;
+border-radius: 15px;
+text-decoration: none;
+font-weight: 600;
+transition: 0.3s;
+}
+
+
+.btn:hover {
+background: #16a34a;
+transform: scale(1.05);
+}
+
+
+.sub-hero {
+padding: 50px 20px;
+color: white;
+text-align: center;
+}
+
+
+.about { background: #f97316; }
+.family { background: #0ea5e9; }
+.education { background: #6366f1; }
+.skills { background: #10b981; }
+.favourites { background: #ec4899; }
+.hobby { background: #14b8a6; }
+
+
+.back {
+display: inline-block;
+margin-top: 15px;
+color: white;
+text-decoration: none;
+font-weight: 500;
+}
+
+
+.content {
+max-width: 800px;
+background: white;
+margin: 40px auto;
+padding: 40px;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.profile-img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 50%;
+display: block;
+margin: 0 auto 20px;
+}
+
+
+.media-box {
+width: 100%;
+max-height: 350px;
+border-radius: 15px;
+margin-bottom: 20px;
+}
+
+
+footer {
+text-align: center;
+padding: 20px;
+background: #1f2937;
+color: white;
+}
